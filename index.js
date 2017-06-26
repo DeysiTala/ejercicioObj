@@ -1,16 +1,7 @@
 var assert = require("assert");
 
-function ejercicio2(_telefonos,_filtro)
-{
-     return _telefonos.filter(function(a){
-      var primera = a.toString().substr(0,3);
-      var ultimas = a.toString().substr(6);
-      return (primeras == filtro|| ultimas ==_filtro);
-    });
 
-
-  }
-
+//Ejercicio 2
   function Pasatiempo(nombre,edad,pasatiempo2){
 
   this.nombre = nombre;
@@ -24,7 +15,7 @@ function ejercicio2(_telefonos,_filtro)
 var respuesta = new Pasatiempo("Deysi", 24, "jugar voley");
 
 
-
+//Ejercicio 1
 function rectangulo(base,altura) {
   this.base = base;
   this.altura = altura;
@@ -36,6 +27,7 @@ this.area = function () { return (this.base*this.altura);
 }
 var respuesta1 = new rectangulo(2,4);
 
+//Ejercicio 3
 function QueEdad(nombre,dia,mes,anioNacimiento,anioActual) {
   this.nombre = nombre;
   this.dia = dia;
